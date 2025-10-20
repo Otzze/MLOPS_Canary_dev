@@ -24,7 +24,6 @@ X_train, X_test, y_train, y_test = train_test_split(
 params = {
     "solver": "lbfgs",
     "max_iter": 500,
-    "multi_class": "auto",
     "random_state": 8888,
 }
 
