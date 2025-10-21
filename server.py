@@ -6,8 +6,8 @@ from typing import List
 
 app = FastAPI()
 print("Loading model...")
-mlflow.set_tracking_uri("http://127.0.0.1:8080")
-model = mlflow.pyfunc.load_model(f"models:/tracking-quickstart/2")
+mlflow.set_tracking_uri("http://host.docker.internal:8080")
+model = mlflow.pyfunc.load_model(f"models:/tracking-quickstart/1")
 print("Model loaded.")
 
 class InputData(BaseModel):
