@@ -1,6 +1,6 @@
-# CANARY DEPLOYMENT EXAMPLE FOR MLFLOW HANDLED PREDICTION MODELS
+# Canary deployment example for MLflow handled prediction models
 
-## STARTUP
+## Startup
 
 ### 1. Start the MLflow Tracking Server
 
